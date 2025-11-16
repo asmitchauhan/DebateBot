@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "bot-token-here"
+TOKEN = "MTQzOTU3NTgyNzk4MDQ4NDc0MA.GBfddh.em3tKj4AHD_qTPPhUPHOuXLA3c8xYUNzciCIyw"
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='/', intents=intents)
