@@ -10,7 +10,7 @@ class DebateCog(commands.Cog):
         self.sessions = {}
 
         # ✅ DeepSeek (via OpenRouter)
-        openai.api_key = "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"
+        openai.api_key = "openrouter-key-here"
         openai.api_base = "https://openrouter.ai/api/v1"
 
     @app_commands.command(name="start", description="Start a debate with multiple users and a topic.")
