@@ -1,1 +1,0 @@
-# ← Add debate Cog here

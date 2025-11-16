@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "MTM4ODc0NjUyNTYxNzY4ODY1Nw.GtHm83.qk6YJVwZIOy5jJaXXovoer-XJwATSXiQZm2q-E"
+TOKEN = "bot-token-here"
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='/', intents=intents)
@@ -18,7 +18,6 @@ async def on_ready():
 
 @bot.event
 async def setup_hook():
-    await bot.load_extension("cogs.hello")
-    await bot.load_extension("cogs.debate")  # ← Add debate Cog here
+    await bot.load_extension("cogs.debate")
 
 bot.run(TOKEN)
